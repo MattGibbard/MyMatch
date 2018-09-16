@@ -1,11 +1,28 @@
 {
   "name": "mymatch",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "matt gibbard",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattGibbard/MyMatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MattGibbard/MyMatch/issues"
+  },
+  "homepage": "https://github.com/MattGibbard/MyMatch#readme",
+  "description": "simple dating app",
+  "keywords": [
+    "dating"
+  ]
 }
